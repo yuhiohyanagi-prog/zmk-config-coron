@@ -55,6 +55,13 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
+
+        new_macro: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N6 &kp LS(T) &kp E &kp LS(M) &kp L &kp N8 &kp LS(P) &kp C &kp AT &kp AT>;
+            label = "NEW_MACRO";
+        };
     };
 
     behaviors {
@@ -143,7 +150,7 @@
 &trans  &kp N1    &kp N2     &kp N3     &kp N4     &kp N5     &kp N6  &kp N7  &kp N8                &kp N9                 &kp N0            &trans
 &trans  &kp PLUS  &kp MINUS  &kp ASTRK  &kp SLASH  &kp EQUAL  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp UNDER  &trans
 &trans  &trans    &trans     &trans     &trans     &trans     &trans  &trans  &trans                &trans                 &trans            &trans             &trans     &trans
-&trans  &trans    &trans     &trans     &trans     &trans     &trans  &trans  &trans                &trans                 &trans
+&trans  &trans    &trans     &trans     &trans     &trans     &trans  &trans  &trans                &trans                 &new_macro
             >;
         };
     };
