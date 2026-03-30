@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&lt_to_layer_0 6 ESCAPE  &kp Q  &kp W         &kp E         &kp R                       &kp T      &kp Y                   &kp U                   &lt 5 I          &kp O           &kp P            &kp BACKSPACE
-&lt_to_layer_0 1 TAB     &kp A  &kp S         &kp D         &kp F                       &kp G      &kp LS(LG(S))           &kp UNDERSCORE          &kp H            &kp J           &kp K            &kp L          &kp MINUS  &kp ENTER
-&kp LEFT_SHIFT           &kp Z  &kp X         &kp C         &kp V                       &kp B      &kp DEL                 &kp AT                  &kp N            &kp M           &kp COMMA        &kp DOT        &kp SLASH  &kp RIGHT_SHIFT
-&kp LEFT_CONTROL         &to 1  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 8 LC(SPACE)  &kp SPACE  &lt_to_layer_0 7 SPACE  &lt_to_layer_0 3 SPACE  &lt 7 LC(SPACE)  &kp LEFT_ARROW  &kp RIGHT_ARROW
+&lt_to_layer_0 6 ESCAPE  &kp Q  &kp W         &kp E         &kp R                          &kp T      &kp Y                   &kp U                   &lt 5 I           &kp O           &kp P            &kp BACKSPACE
+&lt_to_layer_0 1 TAB     &kp A  &kp S         &kp D         &kp F                          &kp G      &kp LS(LG(S))           &kp UNDERSCORE          &kp H             &kp J           &kp K            &kp L          &kp MINUS  &kp ENTER
+&kp LEFT_SHIFT           &kp Z  &kp X         &kp C         &kp V                          &kp B      &kp DEL                 &kp AT                  &kp N             &kp M           &kp COMMA        &kp DOT        &kp SLASH  &kp RIGHT_SHIFT
+&kp LEFT_CONTROL         &to 1  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 8 INT_MUHENKAN  &kp SPACE  &lt_to_layer_0 7 SPACE  &lt_to_layer_0 3 SPACE  &lt 7 INT_HENKAN  &kp LEFT_ARROW  &kp RIGHT_ARROW
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PG_UP>;
