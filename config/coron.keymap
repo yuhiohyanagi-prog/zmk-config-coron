@@ -147,10 +147,10 @@
 
         layer_7 {
             bindings = <
-&trans  &kp N1    &kp N2     &kp N3     &kp N4     &kp N5     &kp N6  &kp N7  &kp N8                &kp N9                 &kp N0            &trans
-&trans  &kp PLUS  &kp MINUS  &kp ASTRK  &kp SLASH  &kp EQUAL  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp UNDER  &trans
-&trans  &trans    &trans     &trans     &trans     &trans     &trans  &trans  &trans                &trans                 &trans            &trans             &trans     &trans
-&trans  &trans    &trans     &trans     &trans     &trans     &trans  &trans  &trans                &trans                 &new_macro
+&trans  &kp N1        &kp N2     &kp N3                &kp N4     &kp N5         &kp N6  &kp N7      &kp N8      &kp N9             &kp N0         &trans
+&trans  &kp LS(SEMI)  &kp MINUS  &kp LS(SINGLE_QUOTE)  &kp SLASH  &kp LS(MINUS)  &trans  &kp LS(N8)  &kp LS(N9)  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp PLUS  &kp SINGLE_QUOTE  &trans
+&trans  &trans        &trans     &trans                &trans     &trans         &trans  &trans      &trans      &trans             &trans         &trans    &trans            &trans
+&trans  &trans        &trans     &trans                &trans     &trans         &trans  &trans      &trans      &trans             &new_macro
             >;
         };
 
